@@ -8,9 +8,9 @@ const db = knex({
     connection: {
       host : 'postgres://smart_z09r_user:r6b9EqyiydZDz0q0CqKiDR79Wxh4zF1Q@dpg-cf287v82i3mnjcn2prag-a.ohio-postgres.render.com/smart_z09r', //localhost 
       port : 5432,
-      user : 'postgres',
-      password : '!heartDante19',
-      database : 'smart'
+      user : 'smart_z09r_user',
+      password : '!r6b9EqyiydZDz0q0CqKiDR79Wxh4zF1Q',
+      database : 'smart_z09r'
     }
 });
 

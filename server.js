@@ -107,12 +107,7 @@ app.put('/image', (req, res) => {
 })
 
 
-app.listen(process.env.PORT || 3080, () => {
+app.listen(process.env.PORT || 3080, '0.0.0.0', () => {
     console.log(`app is running on port ${process.env.PORT}`);
 })
 
-// / --> res = this is working
-// /signin --> POST = success/fail (contains password)
-// /register --> POST = user
-// /profile/:userId --> GET - user 
-// /image --> PUT --> user 

@@ -6,11 +6,11 @@ const knex = require('knex');
 const db = knex({
     client: 'pg',
     connection: {
-      host : 'postgres://smart_z09r_user:r6b9EqyiydZDz0q0CqKiDR79Wxh4zF1Q@dpg-cf287v82i3mnjcn2prag-a.ohio-postgres.render.com/smart_z09r', //localhost 
+      host : '127.0.0.1', //localhost 
       port : 5432,
-      user : 'smart_z09r_user',
-      password : '!r6b9EqyiydZDz0q0CqKiDR79Wxh4zF1Q',
-      database : 'smart_z09r'
+      user : 'postgres',
+      password : '!heartDante19',
+      database : 'smart'
     }
 });
 
